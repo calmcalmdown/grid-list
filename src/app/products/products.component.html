@@ -1,0 +1,4 @@
+<div class="grid-view">
+  <app-product-list *ngFor="let item of products" [product]="item" (changeItem)="clickedItem($event)">
+  </app-product-list>
+</div>

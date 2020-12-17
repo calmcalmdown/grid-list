@@ -1,0 +1,83 @@
+<div class="product-list" (click)="clickedItem()">
+  <div class="product-id">{{product.productId}}</div>
+  <div class="product-img">
+    <img [src]="product.imagePath" />
+  </div>
+  <div class="product-info">
+    <div class="summary">
+      <div class="product-summary">
+        <div class="product-title">{{product.title}}</div>
+        <img src="assets/images/check.svg" class="summary-item">
+        <div class="product-time-ago summary-item">2 Days Ago</div>
+        <div class="product-dropship summary-item">Dropship</div>
+        <div class="product-cloud summary-item">
+          <img src="assets/images/cloud.svg">
+        </div>
+        <div class="product-eye summary-item">
+          <img src="assets/images/eye.svg">
+        </div>
+        <div class="product-setting summary-item">
+          <img src="assets/images/setting.svg">
+        </div>
+      </div>
+      <div class="detail-info">
+        <div class="info-item">
+          <img src="assets/images/order.svg">
+          1.2K
+        </div>
+        <div class="info-item">
+          <img src="assets/images/rating.svg">
+          4.9
+        </div>
+        <div class="info-item">
+          <img src="assets/images/supplier.svg">
+          99%
+        </div>
+        <div class="info-item">
+          <img src="assets/images/e-packet.svg">
+          ePack
+        </div>
+      </div>
+    </div>
+    <div class="price">$12</div>
+    <div class="actions">
+      <img src="assets/images/show.svg">
+      <img src="assets/images/heart.svg">
+      <img src="assets/images/add.svg">
+    </div>
+  </div>
+</div>
+<div class="product-grid">
+
+  <div class="product-img">
+    <img [src]="product.imagePath" />
+  </div>
+  <div class="product-info">
+    <div class="summary">
+      <div class="product-summary">
+        <div class="grid-title-price">
+          <div class="product-title">{{product.title}}</div>
+          <div class="price">$12</div>
+        </div>
+        <div class="detail-info">
+          <div class="info-item">
+            <img src="assets/images/order.svg">
+            1.2K
+          </div>
+          <div class="info-item">
+            <img src="assets/images/rating.svg">
+            4.9
+          </div>
+          <div class="info-item">
+            <img src="assets/images/supplier.svg">
+            99%
+          </div>
+          <div class="info-item">
+            <img src="assets/images/e-packet.svg">
+            ePack
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
